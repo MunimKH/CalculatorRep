@@ -2,7 +2,8 @@ print("python calculator")
 value1=int(input("Enter the 1st number !!! "))
 value2=int(input("Enter the 2nd number !!! "))
 print("\n Here are some operation you can perform !!! \n 1) sum \n 2) subtract \n 3) divide \n 4) multiply")
-function=input("What operation you want to perform ? ")
+function=input("What operation you want to perform ? ").lower()
+print(function)
 
 if function == "sum":
     answer= value1+value2
