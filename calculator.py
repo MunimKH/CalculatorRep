@@ -1,3 +1,10 @@
+# Munim Naeem
+# BSCS-2021-04
+
+print("Munim Naeem")
+print("BSCS-2021-04")
+
+
 print("python calculator")
 value1=int(input("Enter the 1st number !!! "))
 value2=int(input("Enter the 2nd number !!! "))
